@@ -1,0 +1,233 @@
+@use 'vars';
+@use 'typography';
+
+body{
+    background-color: vars.$clr-dark-bg;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-base, vars.$clr-white);
+}
+
+header{
+    background-image: url(../imgs/header.jpg);
+    background-size: cover;
+    padding-bottom: 18em;
+}
+
+h1{
+    width: 100%;
+    padding-top: 6em;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-big, vars.$clr-white);
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h1 span{
+    background-color: vars.$clr-bg-opacity;
+}
+
+h2{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-xmed, vars.$clr-white);
+    padding: 2em 0 1em;
+}
+
+h3{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-sm, vars.$clr-white);
+    padding-top: 1em;
+}
+
+.top-menu{
+    display: inline-flex;
+    background: vars.$clr-bg-opacity;
+}
+
+.header-menu{
+    gap: 2em;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-white);
+    padding-left: 25em;
+    margin: 3em;
+    display: inline-flex;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: vars.$clr-white;
+}
+
+.white-logo{
+    padding: 1.5em 0 0 8em;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-xmed,vars.$clr-white);
+    text-decoration: none;
+}
+
+.blue-logo{
+    color: vars.$clr-light-blue;    
+}
+
+.services{
+    background-color: vars.$clr-light-blue;
+    padding-bottom: 4em;
+}
+
+p{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xbase, vars.$clr-white);
+}
+
+.white-bg{
+    background-color: vars.$clr-white;
+}
+
+.white-bg p{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-sm, vars.$clr-dark-gray);
+}
+
+.white-bg span{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-light-blue);
+}
+
+.port-menu{
+    gap: 2em;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-dark-gray);
+    padding-top: 1em;
+    margin: 3em;
+    margin-right: 0;
+    display: inline-flex;
+}
+
+.port-menu a{
+    text-decoration: none;
+    color: vars.$clr-dark-gray;
+}
+
+#item:hover{
+    border: 2px solid;
+    padding: .1rem .5rem;
+    color: vars.$clr-light-blue;
+}
+
+.dark-text{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-xmed, vars.$clr-dark-gray);
+}
+
+.just-bg{
+    background-color: vars.$clr-light-gray
+}
+
+.video-size{
+    width: 51.5em;
+    margin: 3em 0 3em 0em;
+}
+
+.btn-visit{
+    border: 2px solid;
+    text-decoration: none;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-dark-gray);
+    padding: .5em 1.5em;
+}
+
+.btn-visit:hover{
+    color: vars.$clr-light-blue;
+}
+
+.twitter{
+    background-color: vars.$clr-light-blue;
+    padding-bottom: 4em;
+}
+
+.twitter p{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-xmed, vars.$clr-white);
+}
+
+.twitter span{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xmed, vars.$clr-white);
+}
+
+.john-bg{
+    background-image: url(../imgs/camera.jpg);
+    padding-bottom: 8em;
+    background-size: cover;
+}
+
+.social-links{
+    display: inline-flex;
+    margin-left: -3.5em;
+}
+
+.social-links a{
+    text-decoration: none;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xmed, vars.$clr-white);
+    border: 2px solid;
+    padding: .3em .4em;
+}
+
+.social-links a:hover{
+    color: vars.$clr-light-blue;
+}
+
+.social-links p{
+        @include typography.set-font(vars.$ff-sans, vars.$fw-light, vars.$fs-xmed, vars.$clr-white);
+}
+
+.contact-bg{
+    background-image: url(../imgs/contact.jpg); 
+    background-size: cover;
+}
+
+.contact-bg p{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-base, vars.$clr-white);
+}
+
+.contact-bg label{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-white);
+}
+
+#fullname,#email{
+    background-color:transparent;
+    border: 3px solid;
+    border-color: vars.$clr-white;
+    padding: 10px;
+    width: 31.25rem;
+    margin-left: 1em;
+}
+
+.contact-bg textarea{
+    background-color:transparent;
+    border: 3px solid;
+    border-color: vars.$clr-white;
+    width: 76rem;
+    margin-left: 1em;
+}
+
+.btn-msg{
+    background-color: vars.$clr-light-blue;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-bold, vars.$fs-base, vars.$clr-white);
+    border-color: transparent;
+    margin: 3em 0 5em 1em;
+    padding: 10px;
+    width: 25rem;
+}
+
+.footer-menu{
+    gap: 2em;
+    padding-top: 1em;
+    display: inline-flex;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xbase, vars.$clr-light-gray);
+}
+
+.footer-menu a{
+    text-decoration: none;
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xbase, vars.$clr-light-gray);
+}
+
+.footer-menu a:hover{
+    color: vars.$clr-light-blue;
+}
+
+.copy-pad{
+    @include typography.set-font(vars.$ff-sans, vars.$fw-reg, vars.$fs-xbase, vars.$clr-light-gray);
+    padding: 1.6em 0 0 45em;
+}
+
+

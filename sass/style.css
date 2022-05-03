@@ -1,0 +1,301 @@
+/*colors*/
+/*font-sizes*/
+/*font-families*/
+/*font-weight*/
+/*Set fonts for sections/titles*/
+body {
+  background-color: #404a52;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+}
+
+header {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  padding-bottom: 18em;
+}
+
+h1 {
+  width: 100%;
+  padding-top: 6em;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 2.625rem;
+  color: #FFFFFF;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h1 span {
+  background-color: rgba(64, 74, 82, 0.8);
+}
+
+h2 {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  padding: 2em 0 1em;
+}
+
+h3 {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  padding-top: 1em;
+}
+
+.top-menu {
+  display: inline-flex;
+  background: rgba(64, 74, 82, 0.8);
+}
+
+.header-menu {
+  gap: 2em;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  padding-left: 25em;
+  margin: 3em;
+  display: inline-flex;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.white-logo {
+  padding: 1.5em 0 0 8em;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.blue-logo {
+  color: #4bcaff;
+}
+
+.services {
+  background-color: #4bcaff;
+  padding-bottom: 4em;
+}
+
+p {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 0.75;
+  color: #FFFFFF;
+}
+
+.white-bg {
+  background-color: #FFFFFF;
+}
+
+.white-bg p {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #353f46;
+}
+
+.white-bg span {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #4bcaff;
+}
+
+.port-menu {
+  gap: 2em;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #353f46;
+  padding-top: 1em;
+  margin: 3em;
+  margin-right: 0;
+  display: inline-flex;
+}
+
+.port-menu a {
+  text-decoration: none;
+  color: #353f46;
+}
+
+#item:hover {
+  border: 2px solid;
+  padding: 0.1rem 0.5rem;
+  color: #4bcaff;
+}
+
+.dark-text {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 1.75rem;
+  color: #353f46;
+}
+
+.just-bg {
+  background-color: #515f67;
+}
+
+.video-size {
+  width: 51.5em;
+  margin: 3em 0 3em 0em;
+}
+
+.btn-visit {
+  border: 2px solid;
+  text-decoration: none;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #353f46;
+  padding: 0.5em 1.5em;
+}
+
+.btn-visit:hover {
+  color: #4bcaff;
+}
+
+.twitter {
+  background-color: #4bcaff;
+  padding-bottom: 4em;
+}
+
+.twitter p {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
+
+.twitter span {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
+
+.john-bg {
+  background-image: url(../imgs/camera.jpg);
+  padding-bottom: 8em;
+  background-size: cover;
+}
+
+.social-links {
+  display: inline-flex;
+  margin-left: -3.5em;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  border: 2px solid;
+  padding: 0.3em 0.4em;
+}
+
+.social-links a:hover {
+  color: #4bcaff;
+}
+
+.social-links p {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 300;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
+
+.contact-bg {
+  background-image: url(../imgs/contact.jpg);
+  background-size: cover;
+}
+
+.contact-bg p {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+}
+
+.contact-bg label {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+}
+
+#fullname, #email {
+  background-color: transparent;
+  border: 3px solid;
+  border-color: #FFFFFF;
+  padding: 10px;
+  width: 31.25rem;
+  margin-left: 1em;
+}
+
+.contact-bg textarea {
+  background-color: transparent;
+  border: 3px solid;
+  border-color: #FFFFFF;
+  width: 76rem;
+  margin-left: 1em;
+}
+
+.btn-msg {
+  background-color: #4bcaff;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  border-color: transparent;
+  margin: 3em 0 5em 1em;
+  padding: 10px;
+  width: 25rem;
+}
+
+.footer-menu {
+  gap: 2em;
+  padding-top: 1em;
+  display: inline-flex;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 0.75;
+  color: #515f67;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 0.75;
+  color: #515f67;
+}
+
+.footer-menu a:hover {
+  color: #4bcaff;
+}
+
+.copy-pad {
+  font-family: "Noto Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 0.75;
+  color: #515f67;
+  padding: 1.6em 0 0 45em;
+}
+
+/*# sourceMappingURL=style.css.map */
